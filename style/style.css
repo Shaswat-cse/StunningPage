@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap');
+
 body{
     margin: 0px;
     font-family: 'Sora', sans-serif;
@@ -66,6 +66,7 @@ body{
     width: 60%;
 }
 .landing-section-image{
+    height: 100%;
     width: 95%;
 }
 .new-account-section{
@@ -105,14 +106,20 @@ body{
     display: flex;
     align-items: center;
 }
+.gray-tick{
+    background-image: url("images/tick-gray.png");
+    width:30%;
+    height:31px;
+    background-repeat: no-repeat;
+}
 .design-para{
-    font-size: 15px;
+    font-size: 14px;
     width: 150px;
     font-weight: bold;
-    margin-left: 15px;  
+      
 }
 .date-para{
-    font-size: 15px;
+    font-size: 14px;
     color: #9896a5;
 }
 .Dmm-design-button{
@@ -143,14 +150,8 @@ body{
     box-shadow: 3px 3px 15px #9896a5,-3px -3px 15px #9896a5;
     background-color: white;
     cursor: pointer;
-    .gray-tick2{
+    .gray-tick{
         background-image: url("images/tick-blue.png");
     }
 }
 
-.gray-tick2{
-    background-image: url("images/tick-gray.png");
-    width:100%;
-    height:31px;
-    background-repeat: no-repeat;
-}
